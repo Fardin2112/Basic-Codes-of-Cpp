@@ -5,12 +5,12 @@ using namespace std;
 int main(){
     int n;
     int m;
-    int element1,element2;
+    int ele1,element2;
     vector <vector<int>> vec;
     for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){
-            cin>>element1;
-            vec.push_back(element1);
+            cin>>ele1;
+            vec.push_back(ele1);
         }
     }
 
