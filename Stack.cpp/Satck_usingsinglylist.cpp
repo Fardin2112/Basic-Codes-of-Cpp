@@ -29,7 +29,7 @@ class Stack{
 	//push the value at the back
 	void push(int val){
 		cout<<"pushing the val: "<<val<<" at the back of queue\n";
-       struct Node *temp=new *Node;
+       struct Node *temp=new Node*;
        temp->data=val;
         if(head==NULL){
             head=temp;

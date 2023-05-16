@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 
-
 int main(){
 int n;
     cout<<"write no n:"<<endl;
@@ -13,7 +12,7 @@ int n;
     }
     int temp;
     for(int i=0;i<n;i++){
-        for(int j=i+1;j<(n-1);j++){
+        for(int j=i+1;j<n;j++){
             if(arr[j]<arr[i]){
                 temp=arr[j];
                 arr[j]=arr[i];
@@ -23,7 +22,7 @@ int n;
     }
     for(int i=0;i<n;i++){
         cout<<arr[i]<<" ";
-    }cout<<endl;
+    }
     
     return 0;
 }

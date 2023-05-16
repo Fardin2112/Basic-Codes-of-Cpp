@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "iostream": "cpp"
+    },
+    "explorer.compactFolders": true,
+    "explorer.incrementalNaming": "smart",
+    "explorer.openEditors.visible": 9
+}
