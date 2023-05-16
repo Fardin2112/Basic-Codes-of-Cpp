@@ -41,6 +41,7 @@ using namespace std;
         //for inserting at position first or start
         if(position==1){
             node* n=new node(d);
+            n->next=head;
             head=n;
             return;
         }
@@ -95,8 +96,8 @@ using namespace std;
     insertAtTail(head,2);
     insertAtTail(head,3);
     display(head);
-    insertAtPosition(head,3,4);
-    insertAtPosition(head,2,5);
+    insertAtPosition(head,2,4);
+    insertAtPosition(head,1,5);
     display(head);
    deletenode(3,head);
    display(head);

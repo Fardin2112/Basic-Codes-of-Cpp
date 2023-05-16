@@ -7,7 +7,7 @@ struct node {
     node* next;
 };
 void insertAtTail(node*&head,int val){
-    node*n=new value( val);
+    node*n=new node(val);
     if(head==NULL){
         head=n;
         return;
@@ -28,7 +28,7 @@ void display(node* temp){
     }
 int main(){
     node* match=NULL;
-    inserAtTail(match,3);
+    inserAtTail(head,3);
     inserAtTail(match,35);
     display(match);
     return 0;
