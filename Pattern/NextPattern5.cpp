@@ -13,18 +13,16 @@ int main(){
     cin>>n;
 
     int row  = 1;
-    while(row <= n){
-        int col = 1; 
+    while(row <= n){ 
         int space = n - row;
-
        while(space > 0){
         cout << " ";
         space --;
        }
-       int m = row;
-       while(m > 0){
+       int col = row;
+       while(col > 0){
         cout << '*';
-        m--;
+        col--;
        }
        cout<<endl;
        row++;
