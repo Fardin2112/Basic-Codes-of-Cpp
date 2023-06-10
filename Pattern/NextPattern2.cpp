@@ -15,10 +15,11 @@ int main(){
     int row  = 1;
     while(row <= n){
         int col = 1;
-        int cnt = row;
+        // int cnt = row;
         while(col <= row){
-            cout << cnt <<" ";
-            cnt--;
+            // cout << cnt <<" ";
+            cout << row - col + 1 <<" ";
+            // cnt--;
             col++;
         }
         cout<<endl;
