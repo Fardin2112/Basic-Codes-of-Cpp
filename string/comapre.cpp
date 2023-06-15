@@ -2,8 +2,8 @@
 using namespace std;
 
 int main (){
-    string s1="abc";
-    string s2="abd";
+    string s1="leetcode";
+    string s2="leeto";
 
     // here we subtract s2 from s1:
     cout<<s2.compare(s1)<<endl;
