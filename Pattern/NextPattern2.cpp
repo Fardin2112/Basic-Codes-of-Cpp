@@ -10,6 +10,7 @@ using namespace std;
 int main(){
 
     int n;
+    cout<<"write you number :"<<endl;
     cin>>n;
 
     int row  = 1;
